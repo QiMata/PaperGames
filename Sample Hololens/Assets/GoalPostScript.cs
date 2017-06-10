@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GoalPostScript : MonoBehaviour
 {
-    public bool WentThroughUpright { get; set; }
+    public bool WentThroughUpright { get; private set; }
                                        // Use this for initialization
     void OnTriggerEnter(Collider other)
     {
