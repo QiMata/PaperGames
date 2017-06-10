@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScreen.unity
+    guid: fb0419a091b935f4da3fc162f0759b2a
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: bd942daf884343a458d4741b5e82a818
+  - enabled: 1
+    path: Assets/Scenes/FootBall.unity
+    guid: 86ab6958de8fbc0479ca3bb03f362337
