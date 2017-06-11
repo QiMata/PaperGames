@@ -13,6 +13,10 @@ public class FocussedCommands : MonoBehaviour
         {
            rbody = this.gameObject.AddComponent<Rigidbody>();
         }
+        else
+        {
+            rbody = this.GetComponent<Rigidbody>();
+        }
 
         rbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
         rbody.AddForce(ray.direction * 1000.0f);
